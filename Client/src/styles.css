@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(159, 159, 159);
+    background-image: url("./assets/Background.png");
+    /* height: auto;
+    width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    max-height: 100%;
+
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
