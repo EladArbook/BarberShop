@@ -1,12 +1,18 @@
-<div class="menu">
+<div id="phoneMenuBtn" (click)="openPhoneMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<div id="menu" class="fade-in">
     <ul>
-        <li routerLink="/home">Home</li>
-        <li routerLink="/about">About</li>
-        <li routerLink="/contact">Contact</li>
-        <li routerLink="/appointment">Make an appointment</li>
+        <li routerLink="/home" (click)="closeMenu()">Home</li>
+        <li routerLink="/about" (click)="closeMenu()">About</li>
+        <li routerLink="/contact" (click)="closeMenu()">Contact</li>
+        <li routerLink="/appointment" (click)="closeMenu()">Make an appointment</li>
     </ul>
+</div>
 
+<div>
     <router-outlet></router-outlet>
-
-
 </div>
