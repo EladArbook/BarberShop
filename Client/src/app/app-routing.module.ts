@@ -4,6 +4,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { AppointmentComponent } from './Components/appointment/appointment.component';
 import { ContactComponent } from './Components/contact/contact.component';
 import { AuthComponent } from './Components/auth/auth.component';
+import { AdminComponent } from './Components/admin/admin.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'auth',
     component: AuthComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   },
   {
     path: '**',
